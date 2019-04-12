@@ -1,0 +1,18 @@
+<button [routerLink]="['/']">Modulo principal</button>
+<br />
+<br />
+<button [routerLink]="['/submodule']">Sub module</button>
+<button [routerLink]="['/submodule/comp1']">Sub module - Comp1</button>
+<button [routerLink]="['/submodule/comp2']">Sub module - Comp2</button>
+<br />
+<br />
+<button [routerLink]="['/submodule/subsubmodule/comp1']">Sub Sub module - Comp1</button>
+<button [routerLink]="['/submodule/subsubmodule/comp2']">Sub Sub module - Comp2</button>
+
+<br />
+<br />
+
+<div style="border: solid">Modulo principal
+    <br />
+    <router-outlet></router-outlet>
+</div>
