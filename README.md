@@ -1,4 +1,6 @@
-# Teste
+# Angular-Routing
+
+Projeto com a implementação de roteamento do angular. Utilizando submodulo de roteamento aninhado.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 
